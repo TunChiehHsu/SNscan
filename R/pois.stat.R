@@ -5,4 +5,5 @@ function(obs,pop,zloc)
 	t.stat=(sum(obs[zloc])*log(p/p0)+sum(obs[-zloc])*log(Q/p0))*(p>Q)+1*(p<=Q)
 	#equivalent to minimize vz
 	return(c(t.stat,Q,p))
+    # 敦傑大胖子
 }
