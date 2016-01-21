@@ -1,0 +1,14 @@
+Package: SNscan
+Type: Package
+Title: Scan Statistics in Social Networks
+Version: 1.0
+Date: 2016-1-9
+Author: Tai-Chi Wang [aut,cre,ths] <taichi53719@gmail.com>, 
+	Tun-Chieh Hsu [aut] <htj801116@gmail.com>, 
+	Frederick Kin Hing Phoa [ths] <fredphoa@stat.sinica.edu.tw>
+Maintainer: Tai-Chi Wang <taichi53719@gmail.com>
+Description: Scan statistics applied in social network data can be used to test the cluster characteristics among a social network.
+License: GPL-2
+Depends: R (>= 3.1.0)
+Imports: igraph, poweRlaw, Rmpfr
+Packaged: 2016-01-12 03:54:55 UTC; taich_000

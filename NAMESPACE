@@ -1,0 +1,4 @@
+import(igraph)
+import(poweRlaw)
+import(Rmpfr)
+exportPattern("^[[:alpha:]]+")
