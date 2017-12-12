@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 Scan statistics applied in social network data can be used to test the cluster characteristics among a social network.
 This package is constructed for testing the clustering patterns of structure and attribute among a
