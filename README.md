@@ -43,6 +43,6 @@ pv=mcpv.function(obs.stat=ks[,3],ms.stat=mc.ks[,3],direction=">=")
 
 ## Reference
 
-Wang, T. C., & Phoa, F. K. H. (2016). A scanning method for detecting clustering pattern of both attribute and structure in social networks. Physica A: Statistical Mechanics and its Applications, 445, 295-309.
-Wang, T. C., Phoa, F. K. H., & Hsu, T. C. (2015). Power-law distributions of attributes in community detection. Social Network Analysis and Mining, 5(1), 1-10.
-Zachary,W.W. (1977). An information flow model for conflict and fission in small groups. Journal of anthropological research, 452–473.
+- Wang, T. C., & Phoa, F. K. H. (2016). A scanning method for detecting clustering pattern of both attribute and structure in social networks. Physica A: Statistical Mechanics and its Applications, 445, 295-309.
+- Wang, T. C., Phoa, F. K. H., & Hsu, T. C. (2015). Power-law distributions of attributes in community detection. Social Network Analysis and Mining, 5(1), 1-10.
+- Zachary,W.W. (1977). An information flow model for conflict and fission in small groups. Journal of anthropological research, 452–473.
