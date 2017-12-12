@@ -1,11 +1,5 @@
 # SNscan
 
-Scan statistics applied in social network data can be used to test the cluster characteristics among a social network.
-This package is constructed for testing the clustering patterns of structure and attribute among a
-social network through the scan statistics.  Some data sets are presented to be examples in this package as well.
-
-Scan statistics is applied in social network data and is used to test the cluster characteristics among a social network.
-
 ## Introduction 
 
 This package is constructed for testing the clustering patterns of structure and attribute among a social network through the scan statistics. Most contents are related to the references mentioned below. Some data sets are presented to be examples in this package as well.
