@@ -15,7 +15,7 @@ install.packages("SNscan")
 For up-to-date version, please install from github. Windows user will need to install RTools first.
 
 ```
-devtools::install_github('taichi43/SNscan')
+devtools::install_github('TunChiehHsu/SNscan')
 ```
 
 ## Goal of SNscan
