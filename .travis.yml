@@ -1,2 +1,5 @@
 language: r
 cache: packages
+
+apt_packages:
+  - libRmpfr-dev
