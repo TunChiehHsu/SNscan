@@ -22,6 +22,8 @@ before_install:
   - "curl https://xran.yihui.name/.gitconfig -o ~/.gitconfig"
   - Rscript -e 'update.packages(.libPaths()[1], ask = FALSE)'
   - Rscript -e "if (!require('covr')) install.packages('covr')"
+  - Rscript -e "if (!require('Rmpfr')) install.packages('Rmpfr')"
+
 
 addons:
   apt:
