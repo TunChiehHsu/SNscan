@@ -35,3 +35,4 @@ addons:
     - scala
     - qpdf
     - texinfo
+    - libRmpfr-dev
