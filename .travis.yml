@@ -35,4 +35,23 @@ addons:
     - scala
     - qpdf
     - texinfo
-    - libRmpfr-dev
+  
+  
+cache:
+  packages: yes
+  directories:
+    - $HOME/cache
+
+before_script:
+  - Rscript -e "if (!require('webshot')) devtools::install_github('wch/webshot')"
+
+# run tests
+script:
+  - rm knitr-examples/cache -rf
+  - make ${TARGET}
+  - "[ $TARGET = travis ] && Rscript tools/covr.R || true"
+
+# deploy to xran after integration tests
+after_success:
+  - export R_PKG="$(basename $TRAVIS_REPO_SLUG)"
+  - "[ $TARGET = integration ] && (curl https://xran.yihui.name/r-xran | bash)"
