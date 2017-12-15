@@ -22,21 +22,11 @@ before_install:
   - "curl https://xran.yihui.name/.gitconfig -o ~/.gitconfig"
   - Rscript -e 'update.packages(.libPaths()[1], ask = FALSE)'
   - Rscript -e "if (!require('covr')) install.packages('covr')"
-  - Rscript -e "if (!require('Rmpfr')) install.packages('Rmpfr')"
 
 
 addons:
   apt:
     packages:
-    - ghc
-    - highlight
-    - optipng
-    - coffeescript
-    - asymptote
-    - graphviz
-    - scala
-    - qpdf
-    - texinfo
     - libmpfr-dev
   
   
@@ -44,7 +34,3 @@ cache:
   packages: yes
   directories:
     - $HOME/cache
-
-r_packages: 
-  - Rmpfr
-
