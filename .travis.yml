@@ -44,3 +44,6 @@ cache:
   directories:
     - $HOME/cache
 
+r_packages: 
+  - Rmpfr
+
