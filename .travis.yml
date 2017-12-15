@@ -37,6 +37,7 @@ addons:
     - scala
     - qpdf
     - texinfo
+    - libmpfr-dev
   
   
 cache:
