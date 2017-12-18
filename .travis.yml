@@ -20,7 +20,6 @@ before_install:
         exit 0;
       fi;
     fi
-  - "curl https://xran.yihui.name/.gitconfig -o ~/.gitconfig"
   - Rscript -e 'update.packages(.libPaths()[1], ask = FALSE)'
   - Rscript -e "if (!require('covr')) install.packages('covr')"
 
