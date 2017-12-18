@@ -3,8 +3,7 @@
 [![Build Status](https://travis-ci.org/TunChiehHsu/SNscan.svg?branch=master)](https://travis-ci.org/TunChiehHsu/SNscan)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/SNscan)](https://cran.r-project.org/package=SNscan)
 [![codecov](https://codecov.io/gh/SNscan/Text/branch/master/graph/badge.svg)](https://codecov.io/gh/SNscan/Text)
-[![license](https://img.shields.io/badge/license-SNscan-lightgrey.svg)](http://choosealicense.com/)
-
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 ## Introduction 
 
