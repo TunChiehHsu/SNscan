@@ -35,3 +35,7 @@ cache:
   packages: yes
   directories:
     - $HOME/cache
+
+
+after_success:
+  - Rscript -e 'covr::codecov()'
