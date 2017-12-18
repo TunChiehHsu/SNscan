@@ -1,6 +1,7 @@
 # SNscan
 
 [![Build Status](https://travis-ci.org/TunChiehHsu/SNscan.svg?branch=master)](https://travis-ci.org/TunChiehHsu/SNscan)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/SNscan)](https://cran.r-project.org/package=SNscan)
 
 ## Introduction 
 
