@@ -1,6 +1,6 @@
 # SNscan
 
-[![Build Status](https://travis-ci.org/TunChiehHsu/SNscan.svg?branch=master)
+![Build Status](https://travis-ci.org/TunChiehHsu/SNscan.svg?branch=master)
 
 ## Introduction 
 
